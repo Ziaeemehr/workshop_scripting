@@ -12,3 +12,9 @@ start = timer()
 b = [int(x == 'Hello') for x in a]
 end = timer()
 print('with cast   : {}'.format(end - start))
+#-----------------------------------------------#
+import time
+start = time.time()
+print("hello")
+end = time.time()
+print(end - start)

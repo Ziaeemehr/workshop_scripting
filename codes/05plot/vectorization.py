@@ -36,15 +36,15 @@ end = timer()
 print end - start
 
 #-----------------------------------------------#
-#import timeit
-#n = 100000
-#x = np.linspace(0, 2*np.pi, n+1)
-#y = np.zeros(len(x))
+import timeit
+n = 100000
+x = np.linspace(0, 2*np.pi, n+1)
+y = np.zeros(len(x))
 
-#%timeit for i in xrange(len(x)): \
-    #y[i] = np.sin(x[i])*np.exp(-x[i])
+%timeit for i in xrange(len(x)): \
+    y[i] = np.sin(x[i])*np.exp(-x[i])
 
-#%timeit y = np.sin(x)*np.exp(-x)
+%timeit y = np.sin(x)*np.exp(-x)
 #masure the speedup
 #-----------------------------------------------#
 

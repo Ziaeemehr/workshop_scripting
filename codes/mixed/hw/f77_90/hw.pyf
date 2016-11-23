@@ -1,0 +1,34 @@
+!    -*- f90 -*-
+! Note: the context of this file is case sensitive.
+
+python module hw ! in 
+    interface  ! in :hw
+        function hw1(r1,r2) ! in :hw:hw.f90
+            real :: r1
+            real :: r2
+            real :: hw1
+        end function hw1
+        subroutine hw2(r1,r2) ! in :hw:hw.f90
+            real :: r1
+            real :: r2
+        end subroutine hw2
+        subroutine hw3_v1(r1,r2,s) ! in :hw:hw.f90
+            real :: r1
+            real :: r2
+            real intent(out):: s
+        end subroutine hw3_v1
+        subroutine hw3(r1,r2,s) ! in :hw:hw.f90
+            real :: r1
+            real :: r2
+            real intent(out) :: s
+        end subroutine hw3
+        subroutine hw4(r1,r2,s) ! in :hw:hw.f90
+            real :: r1
+            real :: r2
+            real intent(out) :: s
+        end subroutine hw4
+    end interface 
+end python module hw
+
+! This file was auto-generated with f2py (version:2).
+! See http://cens.ioc.ee/projects/f2py2e/
