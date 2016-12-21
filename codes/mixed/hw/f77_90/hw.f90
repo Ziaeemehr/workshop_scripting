@@ -35,7 +35,7 @@ subroutine hw3(r1, r2, s)
 implicit none
 real(8), intent(in) :: r1, r2
 real(8) :: s
-!f2py intent(out) s
+!*****f2py intent(out) s
 s = sin(r1 + r2)
 return
 end

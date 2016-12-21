@@ -4,6 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import scitools.std as st
 from timeit import default_timer as timer
+from sys import exit
 
 t = np.linspace(0,3,51)
 y = t*t*np.exp(-t*t)
@@ -16,7 +17,7 @@ plt.title('My first plot')
 plt.legend(frameon=False)
 plt.savefig('fig.png')
 plt.savefig('fig.pdf')
-
+exit(0)
 
 st.plot(t, y,
      xlabel='t',
