@@ -1,0 +1,9 @@
+read them respectively:
+
+intro ...
+integrate ...
+function_class ...
+derivative
+automatic_integration
+instance_2_string
+
