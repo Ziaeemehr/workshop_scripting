@@ -9,5 +9,5 @@ def printinfo( arg1, *vartuple ):
       print var
    return;
 
-#printinfo( 10 )
-#printinfo( 70, 60, 50 )
+printinfo( 10 )
+printinfo( 70, 60, 50 )
