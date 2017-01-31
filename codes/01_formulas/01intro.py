@@ -13,7 +13,7 @@ aList = [123, 'xyz', 'zara', 'abc', 123];
 bList = [2009, 'manni'];
 aList.extend(bList)
 print "Extended List : ", aList 
-import random
+
 aList = [0,8,6,9,5,1,10,88]
 aList.sort();
 print "List : ", aList

@@ -11,13 +11,14 @@ n = 4
 a = zeros(n)
 print 'zeros(n):', type(a), type(a[0]), a
 a = zeros(n,'int') # becomes array of integers (!)
-print 'zeros(n)', type(a), a
+print 'zeros(n)', type(a),type(a[0]), a
 p = q = 2
 a = zeros((p, q))
 print 'zeros((p,q))', type(a), a
 
 x = linspace(-5, 5, 11)
-print 'linspace(-5, 5, 11)', type(x), type(x[0]), x
+print 'linspace(-5, 5, 11)', type(x), type(x[0])
+print x
 
 # arange is possible but not recommended
 x = arange(-5, 5, 1, float)
@@ -46,10 +47,6 @@ print 'locate i as index for 0.5 in a', a, 'i:', i
 # initialization from a function:
 def myfunc(i, j):
     return (i+1)*(j+4-i)
-
-# make 3x6 array where a[i,j] = myfunc(i,j):
-a = fromfunction(myfunc, (3,6))
-print 'fromfunction(myfunc, (3,6))', a, type(a[0,0])
 
 # make a one-dim. array of length n:
 n = 1000000
@@ -159,7 +156,7 @@ print sum(a), sum(a1d)
 #190 190
 a1d = a1d.clip(min=3, max=12)
 print a1d
-import sys;sys.exit(1)
+#import sys;sys.exit(1)
 
 a = zeros(5)
 print 'a:', a
