@@ -1,6 +1,6 @@
 #!/usr/bin/python
 '''
-Write an script that do the following :
+Write an script that does the following :
 1. define x in range 0,4*pi with step 0.01
 2. define a function to calculate 
    y = exp(-x)*1*cos(10*x-0.5)
