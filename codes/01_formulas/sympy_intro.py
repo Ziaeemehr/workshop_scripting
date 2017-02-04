@@ -46,3 +46,4 @@ print ddf._lambda
 
 x = 0.1
 print 'ddf(x=%g)=%g' % (x, ddf(x))
+#www.scipy-lectures.org/advanced/sympy.html

@@ -10,6 +10,6 @@ Write an script that do the following :
 5. time the whole process
 6. Do the same steps but with out for loops
    note: use numpy arrays and functions 
-   for vectorization
+   for vectorization (look vectorization.py)
 7. Compare the timing of using loop and vectorization 
-   and calculate the speedup
+   and calculate the speedup(look timer_example.py)
