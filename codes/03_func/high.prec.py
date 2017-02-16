@@ -3,10 +3,18 @@ import time
 start = time.clock()
 
 getcontext().prec = 6
-Decimal(1) / Decimal(7)
+print Decimal(1) / Decimal(7)
+
 
 getcontext().prec = 28
-Decimal(1) / Decimal(7)
+print Decimal(1) / Decimal(7)
 
 end = time.clock()
 print end - start
+
+#print 1/7
+print "%.28f"% (1./7)
+
+for i in range(len(list)):
+
+for in in list
