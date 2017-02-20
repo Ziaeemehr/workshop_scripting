@@ -3,7 +3,7 @@ import time
 from sys import exit 
 def generate_text_file(nrows=100, ncols=20):
     data = np.random.random((nrows, ncols))
-    np.savetxt('large_text_file.txt', data, delimiter=',')
+    np.savetxt('large.txt', data, delimiter=',')
 
 def iter_loadtxt(filename, skiprows=0, dtype=float):
     def iter_func():
@@ -37,11 +37,11 @@ def iter_loadtxt1(filename, skiprows=0, dtype=float):
     data = data.reshape((-1, iter_loadtxt.rowlength))
     return data
 
-#data = generate_text_file()
+data = generate_text_file()
 
 
 t1 = time.clock()
-data0 = iter_loadtxt('pot2.txt')
+data0 = iter_loadtxt('large.txt')
 print "iter_loadtxt ",time.clock()-t1
 
 t1 = time.clock()

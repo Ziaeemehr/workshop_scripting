@@ -15,6 +15,6 @@ print end - start
 #print 1/7
 print "%.28f"% (1./7)
 
-for i in range(len(list)):
+#for i in range(len(list)):
 
-for in in list
+#for in in list
