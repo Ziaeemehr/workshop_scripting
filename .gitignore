@@ -3,3 +3,5 @@ primer/
 pdf/
 python_sessions/
 Emails/
+*.png
+*.eps
