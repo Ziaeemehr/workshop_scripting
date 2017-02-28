@@ -1,0 +1,1 @@
+http://scipy-cookbook.readthedocs.io/items/PerformancePython.html
