@@ -12,7 +12,7 @@ def find_frequency(x,y):
     xf = np.linspace(0.0, 1.0/(2.0*dt), N/2)
     yf = fft(y)
     yfplot = 2.0/N * np.abs(yf[0:N//2])
-    plt.plot(xf, yfplot)
+    # plt.plot(xf, yfplot)
     # plt.xlim([0,2000])
     ind = find_peaks(yfplot)
     # print ind 
@@ -26,12 +26,13 @@ def find_peaks(x):
     return p    
 
 T = 1./600.0
-N = 600
+N = 6000
 x = np.linspace(0.0, N*T, N)
-y = np.sin(50.0 * 2.0*np.pi*x) + 0.5*np.sin(80.0 * 2.0*np.pi*x)
+y = np.sin(2.0 * 2.0*np.pi*x) + 0.5*np.sin(0.5 * 2.0*np.pi*x)
 freq,amp = find_frequency(x,y)
-print freq
-print amp
+for i in range(len(freq)):
+    print freq[i], amp[i]
+
 plt.show()
 
 
