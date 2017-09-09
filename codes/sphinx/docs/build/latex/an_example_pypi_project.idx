@@ -1,0 +1,14 @@
+\indexentry{an\_example\_pypi\_project (module)|hyperpage}{1}
+\indexentry{an\_example\_pypi\_project.useful\_1 (module)|hyperpage}{3}
+\indexentry{useful\_1 (module)|hyperpage}{3}
+\indexentry{MyPublicClass (class in an\_example\_pypi\_project.useful\_1)|hyperpage}{3}
+\indexentry{get\_foobar() (an\_example\_pypi\_project.useful\_1.MyPublicClass method)|hyperpage}{3}
+\indexentry{public\_fn\_with\_googley\_docstring() (in module an\_example\_pypi\_project.useful\_1)|hyperpage}{3}
+\indexentry{public\_fn\_with\_sphinxy\_docstring() (in module an\_example\_pypi\_project.useful\_1)|hyperpage}{3}
+\indexentry{an\_example\_pypi\_project.useful\_2 (module)|hyperpage}{5}
+\indexentry{useful\_1 (module)|hyperpage}{5}
+\indexentry{public\_fn\_with\_sphinxy\_docstring() (in module an\_example\_pypi\_project.useful\_2)|hyperpage}{5}
+\indexentry{\_private\_fn\_with\_docstring() (in module an\_example\_pypi\_project.useful\_2)|hyperpage}{5}
+\indexentry{MyPublicClass (class in an\_example\_pypi\_project.useful\_2)|hyperpage}{5}
+\indexentry{\_get\_baz() (an\_example\_pypi\_project.useful\_2.MyPublicClass method)|hyperpage}{5}
+\indexentry{get\_foobar() (an\_example\_pypi\_project.useful\_2.MyPublicClass method)|hyperpage}{5}
