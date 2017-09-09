@@ -1,0 +1,10 @@
+ffmpeg -f image2 -r 1/5 -i image%05d.png -vcodec mpeg4 -y movie.mp4
+-r 1/5 5 second for each frame
+-r 24 (24 frames per second)
+
+This command takes images with 5 digit padding 
+(image00001.png) and compresses them into an 
+mpeg4 quicktime, at a rate of holding each 
+frame for 5 seconds. You could do a different
+fps if your images are greater:
+-r 24 (24 frames per second)
