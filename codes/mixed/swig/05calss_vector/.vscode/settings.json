@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.i": "c",
+        "cstdio": "cpp"
+    },
+    "python.linting.pylintEnabled": false
+}
