@@ -20,9 +20,11 @@ http://hplgit.github.io/primer.html/doc/pub/class/._class-readable000.html#table
 To install the required packages use the following:
 
 ** Ubuntu & Debian **
+
 sudo apt-get install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
 
 Or
 
 ** Windows, Mac and linux**
+
 https://www.anaconda.com/download/
