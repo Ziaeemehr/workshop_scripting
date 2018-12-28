@@ -1,5 +1,4 @@
-#include <time.h>
-double My_variable = 3.0;
+#include "example.h"
 
 int fact(int n) {
     if (n <= 1) return 1;
