@@ -22,8 +22,9 @@ $(TARGET).so: $(TARGET).o
 $(TARGET).o: $(TARGET).cpp
 	g++ -I$(PYTHON_INCLUDE) -I$(BOOST_INC) -fPIC -c $(TARGET).cpp $(CXXFLAGS)
 
-
-
+clean:
+	rm *.o *.so
+.phoney: clean
 
 
 
