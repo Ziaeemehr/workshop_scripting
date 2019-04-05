@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 #-------------------------------------------------------------------
 
 total = 0; # This is global variable.
