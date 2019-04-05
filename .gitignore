@@ -8,4 +8,8 @@ Emails/
 *.hdf5
 *.h5
 *.txt
+*.h5
+*.pdf
+*.o
+*.so
 
