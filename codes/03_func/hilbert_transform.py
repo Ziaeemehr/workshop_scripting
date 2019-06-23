@@ -20,7 +20,7 @@ instantaneous_phase = np.unwrap(np.angle(analytic_signal))
 instantaneous_frequency = (np.diff(instantaneous_phase) /
                            (2.0*np.pi) * fs)
 
-fig = plt.figure()
+fig = plt.figure(figsize=(10,8))
 ax0 = fig.add_subplot(211)
 ax0.plot(t, signal, label='signal')
 ax0.plot(t, amplitude_envelope, label='envelope')

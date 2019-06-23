@@ -25,8 +25,8 @@ print len(Pxx_deni), len(fi)
 for i in range(len(fi)):
     print fi[i], Pxx_deni[i]
 
-pl.semilogy(f, Pxx_den)
+pl.plot(f, Pxx_den)
 pl.ylim([1e-7, 1e2])
 pl.xlabel('frequency [Hz]')
 pl.ylabel('PSD [V**2/Hz]')
-pl.show()
+pl.savefig('f')
