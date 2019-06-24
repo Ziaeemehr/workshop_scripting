@@ -12,4 +12,5 @@ Emails/
 *.pdf
 *.o
 *.so
-
+.vscode/
+.ipynb_checkpoints/
