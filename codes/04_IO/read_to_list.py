@@ -1,4 +1,6 @@
 import numpy as np
+
+
 def read_from_file(filename, n):
     spikes = []
     with open(filename, "r") as f:
