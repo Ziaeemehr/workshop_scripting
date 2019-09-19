@@ -1,3 +1,6 @@
+# telegram channel: @scientific_programming 
+# aparat channel : https://www.aparat.com/ziaeemehr
+# https://t.me/s/scientific_programming
 import pylab as pl
 import numpy as np
 from bidi.algorithm import get_display
