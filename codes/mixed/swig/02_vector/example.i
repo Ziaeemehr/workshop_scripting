@@ -10,6 +10,7 @@
 namespace std {
     %template(IntVector)    vector<int>;
     %template(DoubleVector) vector<double>;
+    %template(IntVector2)   vector<vector<int>>;
 }
 
 /* Let's just grab the original header file here */

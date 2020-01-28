@@ -31,14 +31,17 @@ def plot_regression_line(x, y, b):
     y_pred = b[0] + b[1]*x
 
     # plotting the regression line
-    plt.plot(x, y_pred, color="g")
+    plt.plot(x, y_pred, color="g",
+             label=str(r"%.4f $x$ + %.4f" % (b[1], b[0])))
+
 
     # putting labels
     plt.xlabel('x')
     plt.ylabel('y')
-
+    plt.legend()
     # function to show plot
-    plt.show()
+    plt.savefig("03.png")
+    # plt.show()
 
 
 def main():

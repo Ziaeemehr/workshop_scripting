@@ -6,7 +6,7 @@ from sys import exit
 # Call average with a Python list...
 
 print example.average([1, 2, 3, 4])
-
+# print example.averagePair([1, 2], [3, 4])
 # ... or a wrapped std::vector<int>
 
 v = example.IntVector(4)
@@ -34,3 +34,8 @@ example.halve_in_place(v)
 for i in range(len(v)):
     print v[i], "; ",
 print
+
+
+int2d = example.reshape_2d([1, 2, 3, 4], 2)
+print int2d
+

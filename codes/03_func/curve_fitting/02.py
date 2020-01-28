@@ -18,4 +18,5 @@ pl.plot(x,y,label='data')
 pl.plot(x, fit_func(x, a, b), 
 label="fit: ax^2+b, a=%g, b=%g" %(a,b))
 pl.legend()
-pl.show()
+pl.savefig("02.png")
+# pl.show()

@@ -32,4 +32,5 @@ plt.plot(xdata, func(xdata, *popt), 'g--',
 plt.xlabel('x')
 plt.ylabel('y')
 plt.legend()
-plt.show()
+plt.savefig("01.png")
+# plt.show()
