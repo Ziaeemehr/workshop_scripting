@@ -1,0 +1,20 @@
+[
+    {
+        "age": 32,
+        "languages": [
+            "English",
+            "Fench"
+        ],
+        "married": true,
+        "name": "Bob"
+    },
+    {
+        "age": 33,
+        "languages": [
+            "English",
+            "Farsi"
+        ],
+        "married": true,
+        "name": "Ali"
+    }
+]
