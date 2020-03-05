@@ -1,6 +1,7 @@
 *.pyc
 primer/
 pdf/
+e/
 python_sessions/
 Emails/
 *.png
