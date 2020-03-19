@@ -13,7 +13,7 @@ Help
 ​
 - **For a quick review please check the codes/workshop directory**
 ​
-I also upload some videos and tutorials in my youtube and telegram channel which the requieing files are aploded here, please visit my Telegram channel [PyCpp_channel](https://t.me/s/pycpp_channel), [YouTube](https://www.youtube.com/channel/UCtoQTqZF2LzaN6T-qQlorFg), or [Aparat](https://www.aparat.com/video/video/listuser/view/list/dashboard/yes/list_type/all/username/ziaeemehr).
+I also upload some videos and tutorials in my youtube and telegram channel which the requieing files are aploded here, please visit my Telegram channel [scientific programming_channel](https://t.me/s/scientific_programming), [YouTube](https://www.youtube.com/channel/UCtoQTqZF2LzaN6T-qQlorFg), or [Aparat](https://www.aparat.com/video/video/listuser/view/list/dashboard/yes/list_type/all/username/ziaeemehr).
 ​
 ​
 The texts are :
