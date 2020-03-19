@@ -31,12 +31,12 @@ Also take a look at the [these Examples](http://hplgit.github.io/primer.html/doc
 
 
 **Ubuntu & Debian**
-
+```sh
 sudo apt-get install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
+```
 
 
 Or install from anaconda:
-
 
 **Windows, Mac and linux**
 
