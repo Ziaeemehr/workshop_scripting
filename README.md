@@ -13,7 +13,7 @@ Help
 ​
 - **For a quick review please check the codes/workshop directory**
 ​
-I also upload some videos and tutorials in my youtube and telegram channel which the requieing files are aploded here, please visit my Telegram channel [scientific programming_channel](https://t.me/s/scientific_programming), [YouTube](https://www.youtube.com/channel/UCtoQTqZF2LzaN6T-qQlorFg), or [Aparat](https://www.aparat.com/video/video/listuser/view/list/dashboard/yes/list_type/all/username/ziaeemehr).
+I also upload some videos and tutorials in my youtube and telegram channel which the requieing files are aploded here, please visit my Telegram channel [scientific programming channel](https://t.me/s/scientific_programming), [YouTube](https://www.youtube.com/channel/UCtoQTqZF2LzaN6T-qQlorFg), or [Aparat](https://www.aparat.com/video/video/listuser/view/list/dashboard/yes/list_type/all/username/ziaeemehr).
 ​
 ​
 The texts are :
@@ -25,21 +25,20 @@ The texts are :
 ​
 The slides and codes are avalable from [here](http://hplgit.github.io/scipro-primer/) and [here](http://folk.uio.no/hpl/scripting/).
 Also take a look at the [these Examples](http://hplgit.github.io/primer.html/doc/pub/class/._class-readable000.html#table_of_contents)
-​
 
-To install the required packages:
 
-​
+*To install the required packages*:
+
+
 **Ubuntu & Debian**
 
-​
 sudo apt-get install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
 
-​
+
 Or install from anaconda:
 
-​
+
 **Windows, Mac and linux**
-​
+
 https://www.anaconda.com/download/
-​
+
