@@ -77,4 +77,4 @@ ax = fig.add_subplot(1, 2, 2, projection='3d')
 ax.plot_trisurf(triang, z, cmap=plt.cm.CMRmap)
 plt.savefig(sys.argv[0].split(".")[0]+".png")
 
-# plt.show()
+plt.show()
