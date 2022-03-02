@@ -18,13 +18,15 @@ plt.plot(xdata, ydata, 'b-', label='data')
 
 
 popt, pcov = curve_fit(func, xdata, ydata)
-print popt
+print(popt)
+
 
 plt.plot(xdata, func(xdata, *popt), 'r-',
          label='fit: a=%5.3f, b=%5.3f, c=%5.3f' % tuple(popt))
 
 popt, pcov = curve_fit(func, xdata, ydata, bounds=(0, [3., 1., 0.5]))
-print popt
+print(popt)
+
 
 plt.plot(xdata, func(xdata, *popt), 'g--',
          label='fit: a=%5.3f, b=%5.3f, c=%5.3f' % tuple(popt))

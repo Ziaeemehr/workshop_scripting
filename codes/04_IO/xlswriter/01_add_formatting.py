@@ -8,7 +8,7 @@ worksheet = workbook.add_worksheet()
 bold = workbook.add_format({'bold': True})
 
 # Add a number format for cells with money.
-money = workbook.add_format({'num_format': '$#,##0'})
+money = workbook.add_format({'num_format': '#,##0'}) # '$#,##0'
 
 # Write some data headers.
 worksheet.write('A1', 'Item', bold)

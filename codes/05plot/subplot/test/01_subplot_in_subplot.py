@@ -20,4 +20,4 @@ for i in range(6):
         fig.add_subplot(ax)
 
 plt.savefig('01')
-# plt.show()
+plt.show()
