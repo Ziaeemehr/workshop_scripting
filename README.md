@@ -1,4 +1,4 @@
-### This repository is created for weekly sessions of Python scripting course at IASBS, Zanjan, I.R.Iran.
+### This repository is created for weekly sessions of Python scripting course at IASBS, Zanjan, Iran.
 
 - **For a quick review please check the codes/workshop directory**
 
