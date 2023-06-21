@@ -18,16 +18,9 @@ Also take a look at the [these Examples](http://hplgit.github.io/primer.html/doc
 
 *To install the required packages*:
 
-
-**Ubuntu & Debian**
 ```sh
-sudo apt-get install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
+conda create --name myenv # making new environment
+conda activate myenv      # activating the environment
+conda install -c conda-forge numpy scipy matplotlib 
+conda install -c anaconda ipython
 ```
-
-
-Or install from anaconda:
-
-**Windows, Mac and linux**
-
-https://www.anaconda.com/download/
-
