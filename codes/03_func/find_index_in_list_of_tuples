@@ -1,0 +1,11 @@
+import numpy as np 
+
+# find index of element in a list of tuples
+def find_index(list_of_tuples, element):
+    for i, tup in enumerate(list_of_tuples):
+        # find closest element
+        if np.isclose(tup[0], element[0]) and np.isclose(tup[1], element[1]):
+            return i
+    return None
+
+# idx = find_index(tuple(theta0.numpy().tolist()), (x[i_flu[0][0]], y[i_flu[1][0]]))

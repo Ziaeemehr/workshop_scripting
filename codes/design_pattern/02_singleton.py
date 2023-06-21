@@ -45,7 +45,8 @@ class Logger(object):
 log1 = Logger()
 print (log1)
 
-# But the second call returns the same instance. The message “Creating the object” does not print, nor is a different object returned:
+# But the second call returns the same instance. 
+# The message “Creating the object” does not print, nor is a different object returned:
 
 log2 = Logger()
 print(log2)
