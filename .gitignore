@@ -15,6 +15,6 @@ Emails/
 *.so
 .vscode/
 .ipynb_checkpoints/
-
+*.gif
 ._.DS_Store
 .DS_Store
