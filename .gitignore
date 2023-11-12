@@ -18,3 +18,16 @@ Emails/
 *.gif
 ._.DS_Store
 .DS_Store
+
+
+build/
+dist/
+*.so 
+*.egg-info/
+*.egg
+*.o
+*.c 
+*.pyc
+*.pyo
+*.pyd
+*_wrap.*
